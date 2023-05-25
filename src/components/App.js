@@ -13,12 +13,15 @@ const App = () => {
   const handleCloseModal = () => {
     setShowModal(false);
   };
+
+
+
   return (
     <div>
         {/* Do not remove the main div */}
         <button onClick={handleOpenModal}>Open Modal</button>
       <Modal show={showModal} onClose={handleCloseModal}>
-        <h2>Modal Content</h2>
+      <button onClick={handleCloseModal}>Close</button>
         <p>This is the content of the modal.</p>
       </Modal>
     </div>
