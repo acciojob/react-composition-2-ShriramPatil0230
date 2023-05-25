@@ -19,11 +19,6 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <button onClick={handleOpenModal}>Open Modal</button>
-      <Modal show={showModal} onClose={handleCloseModal}>
-      <button onClick={handleCloseModal}>Close</button>
-        <p>This is the content of the modal.</p>
-      </Modal>
     </div>
   )
 }

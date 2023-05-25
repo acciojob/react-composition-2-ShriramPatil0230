@@ -6,5 +6,12 @@ return(
     
 )
 
-
 ReactDOM.render(<App />, document.getElementById("root"));
+root.render(
+<React.StrictMode>
+    <App />
+    
+  </React.StrictMode>
+);
+
+
